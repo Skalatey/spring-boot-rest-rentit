@@ -1,0 +1,12 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--<include file="liquibase/changeLog/changeSets/Issue#2_create_logical_model.sql"/>-->
+    <include file="liquibase/changeLog/changeSets/db.changelog-1.0.xml" />
+    <include file="liquibase/changeLog/changeSets/h2_data.sql"/>
+
+</databaseChangeLog>
